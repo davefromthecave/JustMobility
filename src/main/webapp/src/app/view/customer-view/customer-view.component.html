@@ -1,0 +1,19 @@
+<ng-container>
+  <section class="user_footprint">
+    <div class="main_menu_text">
+      CO <sub>2</sub> emission {{co2FootprintSpan}}
+    </div>
+    <div class="main_menu_text">
+      better then {{co2RelativeValue}}% of participants
+    </div>
+  </section>
+  <section class="main_menu_button_group">
+    <button *ngFor="let button of menuButtons" mat-raised-button class="main_menu_button" (click)="onMenuButtonClick(button.component, button.variant)">
+      <span style="text-align:center">
+        <fa-icon [icon]="button.icon" size="4x"></fa-icon>
+      </span>
+    </button>
+  </section>
+</ng-container>
+
+

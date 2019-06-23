@@ -1,0 +1,16 @@
+<ng-container>
+  <h2 class="view_titel">Messages</h2>
+  <mat-card *ngFor="let message of messages">
+    <mat-card-header>
+      <mat-card-title>
+        {{message.title}}
+      </mat-card-title>
+      <mat-card-subtitle>
+        {{message.sender}}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      {{message.content}}
+    </mat-card-content>
+  </mat-card>
+</ng-container>

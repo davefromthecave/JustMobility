@@ -1,0 +1,27 @@
+@import '../view.component';
+
+.user_footprint {
+  text-align: center;
+  padding: 1em;
+}
+
+.main_menu_text {
+  font-size: 24px;
+}
+
+.main_menu_button_group {
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+  .main_menu_button {
+    margin:1em;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+

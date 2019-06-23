@@ -1,0 +1,22 @@
+<ng-container>
+  <h2 class="view_titel">Ride</h2>
+  <mat-card *ngFor="let info of displayedInformation" style="height: 50px;">
+    <mat-card-content>
+      <span style="float: left;">
+        {{info.description}}
+      </span>
+      <span style="float: right; padding-left: 10px;">
+        {{info.metric}}
+      </span>
+      <span style="float: right;">
+        {{info.value}}
+      </span>
+    </mat-card-content>
+  </mat-card>
+</ng-container>
+
+<div>
+  <button mat-button class="ride_booking_button" (click)="onRideButtonClick()">
+    {{buttonText}}
+  </button>
+</div>

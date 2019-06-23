@@ -1,0 +1,42 @@
+.app_header {
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.app_header_menu_titel {
+  line-height: 2.5em;
+}
+
+.app_header_menu_button {
+  float: left;
+  padding: 6px 6px 0 0;
+}
+
+.app_header_back_button {
+  float: right;
+  padding: 6px 6px 0 0;
+}
+
+.app_sidenav_item {
+
+}
+
+.app_sidenav_icon {
+  padding-right: 6px;
+}
+
+.app_sidenav_username {
+  font-size: 1.5em;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.app_content,
+.app_view {
+  height: 100%;
+}
+
+.mat-drawer-container {
+  text-align: center;
+}
